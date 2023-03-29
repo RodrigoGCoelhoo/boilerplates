@@ -1,8 +1,6 @@
 # Boilerplate - Manguinho V1
 By: [Rodrigo Manguinho]('https://www.linkedin.com/in/rmanguinho')
 
----
-
 ## Dependencies
 - ✅ [git-commit-msg-linter](#git-commit-msg-linter)
 - ✅ [Typescript](#typescript)
@@ -10,8 +8,6 @@ By: [Rodrigo Manguinho]('https://www.linkedin.com/in/rmanguinho')
 - ✅ [Husky](#husky)
 - ✅ [lint-staged](#lint-staged)
 - ✅ [Jest](#jest)
-
----
 
 ## Description
 
