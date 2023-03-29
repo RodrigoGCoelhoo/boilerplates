@@ -4,24 +4,26 @@ By: [Rodrigo Manguinho]('https://www.linkedin.com/in/rmanguinho')
 ---
 
 ## Dependencies
-✅ [git-commit-msg-linter](#git-commit-msg-linter)
-✅ [Typescript](#typescript)
-✅ [ESlint with Typescript](#eslint)
-✅ [Husky](#husky)
-✅ [lint-staged](#lint-staged)
-✅ [Jest](#jest)
+- ✅ [git-commit-msg-linter](#git-commit-msg-linter)
+- ✅ [Typescript](#typescript)
+- ✅ [ESlint with Typescript](#eslint)
+- ✅ [Husky](#husky)
+- ✅ [lint-staged](#lint-staged)
+- ✅ [Jest](#jest)
 
 ---
 
 ## Description
 
-### git-commit-msg-linter ([page]('https://github.com/legend80s/git-commit-msg-linter'))
+### git-commit-msg-linter 
 
 Block commits that don't follow the pattern from [Conventional Commits]('https://www.conventionalcommits.org/en/v1.0.0/#summary').
 
 > git commit -m "chore: add package"
 
-### Typescript ([page]('https://www.typescriptlang.org/'))
+([link]('https://github.com/legend80s/git-commit-msg-linter'))
+
+### Typescript
 
 Add typing for JavaScript.
 
@@ -43,8 +45,9 @@ Add typing for JavaScript.
 - After compile will save files into "dist" folder
 - target: defines the ECMAScript rules
 
+([link]('https://www.typescriptlang.org/'))
 
-### ESlint with Typescript ([page]('https://github.com/standard/eslint-config-standard-with-typescript'))
+### ESlint with Typescript
 
 Analyzes your code and find JavaScript code problems.
 
@@ -61,11 +64,15 @@ Analyzes your code and find JavaScript code problems.
 
 This assures that it will read the ".tsconfig.json" file to run.
 
-### Husky ([page]('https://github.com/typicode/husky'))
+([link]('https://github.com/standard/eslint-config-standard-with-typescript'))
+
+### Husky
 
 Create hooks to execute when certain thing happens. Here we are using to execute [Lint-staged](#lint-staged) in pre-commits.
 
-### Lint-staged ([page]('https://github.com/okonet/lint-staged')) 
+([link]('https://github.com/typicode/husky'))
+
+### Lint-staged 
 
 Run linters on staged git files preventing the commit of not working code.
 
@@ -86,7 +93,9 @@ Run linters on staged git files preventing the commit of not working code.
 - Execute "test:staged" script
 - Execute "git add"
 
-### Jest ([page]('https://github.com/facebook/jest'))
+([link]('https://github.com/okonet/lint-staged')) 
+
+### Jest 
 
 ```
 # jest.config.ts
@@ -113,3 +122,5 @@ transform: {
     '.+\\.ts$': 'ts-jest'
 }
 ```
+
+([link]('https://github.com/facebook/jest'))
