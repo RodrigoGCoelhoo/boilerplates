@@ -1,5 +1,5 @@
 # Boilerplate - Manguinho V1
-By: Rodrigo Manguinho ([Link]('https://www.linkedin.com/in/rmanguinho'))
+By: [Rodrigo Manguinho]('https://www.linkedin.com/in/rmanguinho')
 
 ---
 
@@ -15,13 +15,13 @@ By: Rodrigo Manguinho ([Link]('https://www.linkedin.com/in/rmanguinho'))
 
 ## Description
 
-### [Git-commit-msg-linter]('https://github.com/legend80s/git-commit-msg-linter') {#git-commit-msg-linter} 
+### git-commit-msg-linter ([page]('https://github.com/legend80s/git-commit-msg-linter'))
 
 Block commits that don't follow the pattern from [Conventional Commits]('https://www.conventionalcommits.org/en/v1.0.0/#summary').
 
 > git commit -m "chore: add package"
 
-### [Typescript]('https://www.typescriptlang.org/') {#typescript} 
+### Typescript ([page]('https://www.typescriptlang.org/'))
 
 Add typing for JavaScript.
 
@@ -44,7 +44,7 @@ Add typing for JavaScript.
 - target: defines the ECMAScript rules
 
 
-### [ESlint with Typescript]('https://github.com/standard/eslint-config-standard-with-typescript') {#eslint} 
+### ESlint with Typescript ([page]('https://github.com/standard/eslint-config-standard-with-typescript'))
 
 Analyzes your code and find JavaScript code problems.
 
@@ -61,11 +61,11 @@ Analyzes your code and find JavaScript code problems.
 
 This assures that it will read the ".tsconfig.json" file to run.
 
-### [Husky]('https://github.com/typicode/husky') {#husky} 
+### Husky ([page]('https://github.com/typicode/husky'))
 
 Create hooks to execute when certain thing happens. Here we are using to execute [Lint-staged](#lint-staged) in pre-commits.
 
-### [Lint-staged]('https://github.com/okonet/lint-staged') {#lint-staged} 
+### Lint-staged ([page]('https://github.com/okonet/lint-staged')) 
 
 Run linters on staged git files preventing the commit of not working code.
 
@@ -86,7 +86,7 @@ Run linters on staged git files preventing the commit of not working code.
 - Execute "test:staged" script
 - Execute "git add"
 
-### [Jest]('https://github.com/facebook/jest') {#jest}
+### Jest ([page]('https://github.com/facebook/jest'))
 
 ```
 # jest.config.ts
